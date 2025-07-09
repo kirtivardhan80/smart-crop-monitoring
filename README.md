@@ -29,7 +29,7 @@ This repository contains the implementation of **Regenerative AI for Sustainable
 </div>
 
 <div align="center">
-  <img src="images/ndvi_example.png" width="400" alt="NDVI Heatmap"/>
+  <img src="Output_images/ndvi_heatmap.png" width="400" alt="NDVI Heatmap"/>
   <br/>
   <i>NDVI heatmap generated from Sentinel-2 Red and NIR bands.</i>
 </div>
