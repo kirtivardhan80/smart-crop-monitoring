@@ -71,3 +71,148 @@ smart-crop-monitoring/
 git clone https://github.com/yourusername/smart-crop-monitoring.git
 cd smart-crop-monitoring
 
+```markdown
+# 🌿 Smart Crop Monitoring Framework
+
+A regenerative AI-based framework for sustainable agriculture that integrates CNN-based plant disease detection and NDVI-based field health analysis into a single smart monitoring solution.
+
+---
+
+## 🚀 Quick Start
+
+### 1. Create a virtual environment
+
+```bash
+conda create -n cropapp python=3.9
+conda activate cropapp
+```
+
+### 2. Create a virtual environment (recommended)
+
+```bash
+conda create -n cropapp python=3.9
+conda activate cropapp
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔧 Dependencies
+
+Key packages used:
+
+- TensorFlow
+- Streamlit
+- NumPy
+- Pillow
+- Rasterio
+- Matplotlib
+- scikit-learn
+
+📦 All packages are listed in requirements.txt
+
+---
+
+## 🗂️ Dataset
+
+This project uses the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) for training the plant disease classification model.
+
+📌 The dataset is not included in this repository due to size.  
+📁 After downloading, run the dataset_split_script.py to create train/val folders:
+
+```bash
+python dataset_split_script.py
+```
+
+For NDVI analysis, download Sentinel-2 bands (B04 - Red, B08 - NIR) from:
+
+- [Copernicus Open Access Hub](https://scihub.copernicus.eu/)
+- [Sentinel EO Browser](https://apps.sentinel-hub.com/eo-browser/)
+
+---
+
+## 🧠 How It Works
+
+### 🩺 Plant Disease Detection
+
+- Uses a lightweight CNN model trained on PlantVillage data.
+- Class mappings are stored in label_map.json.
+- The Streamlit app allows users to upload crop leaf images and returns predicted disease.
+
+### 🛰️ NDVI Estimation
+
+- Accepts Sentinel-2 Red and NIR band GeoTIFF images.
+- Computes NDVI using the formula:
+
+\[
+NDVI = \frac{(NIR - Red)}{(NIR + Red)}
+\]
+
+- Visualizes NDVI as a heatmap for crop health monitoring.
+
+---
+
+## 🔬 Research Paper
+
+This repository implements the methods proposed in:
+
+📄 Regenerative AI for Sustainable Agriculture: A Smart Crop Monitoring Framework  
+👤 Kirti Vardhan Singh  
+🏫 Department of Computer Science and Engineering,  
+Centurion University of Technology and Management, Bhubaneswar, India  
+
+📝 Full paper and LaTeX source available upon request.
+
+---
+
+## 📈 Future Work
+
+- Integration with LoRa-based IoT soil sensors  
+- YOLOv8 weed detection module  
+- Multi-language farmer app support  
+- Edge deployment on Jetson Nano or Raspberry Pi  
+
+---
+
+## 🤝 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 💡 Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{singh2025smartcrop,
+  title={Regenerative AI for Sustainable Agriculture: A Smart Crop Monitoring Framework},
+  author={Kirti Vardhan Singh},
+  year={2025},
+  institution={Centurion University of Technology and Management}
+}
+```
+
+---
+
+## 📧 Contact
+
+Kirti Vardhan Singh  
+📫 Email: kirtivardhan7549@gmail.com
+
+<div align="center">
+  Built with ❤️ for sustainable agriculture.
+</div>
+```
+
+
