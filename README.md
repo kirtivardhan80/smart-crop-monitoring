@@ -70,21 +70,6 @@ smart-crop-monitoring/
 ```bash
 git clone https://github.com/yourusername/smart-crop-monitoring.git
 cd smart-crop-monitoring
-
-```markdown
-# 🌿 Smart Crop Monitoring Framework
-
-A regenerative AI-based framework for sustainable agriculture that integrates CNN-based plant disease detection and NDVI-based field health analysis into a single smart monitoring solution.
-
----
-
-## 🚀 Quick Start
-
-### 1. Create a virtual environment
-
-```bash
-conda create -n cropapp python=3.9
-conda activate cropapp
 ```
 
 ### 2. Create a virtual environment (recommended)
