@@ -1,5 +1,9 @@
 # 🌿 Smart Crop Monitoring Framework
-
+<div align="center">
+  <img src="images/ndvi_example.png" width="400" alt="NDVI Heatmap"/>
+  <br/>
+ 
+</div>
 ## 📌 Overview
 
 This repository contains the implementation of **Regenerative AI for Sustainable Agriculture: A Smart Crop Monitoring Framework**, which integrates **Convolutional Neural Networks (CNN)** for plant disease detection and **NDVI (Normalized Difference Vegetation Index)** for field health analysis. The framework combines **IoT data, remote sensing, and edge/cloud AI deployment** to support precision agriculture and empower smallholder farmers.
