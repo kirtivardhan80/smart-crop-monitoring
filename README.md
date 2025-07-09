@@ -1,6 +1,6 @@
 # 🌿 Smart Crop Monitoring Framework
 <div align="center">
-  <img src="images/ndvi_example.png" width="400" alt="NDVI Heatmap"/>
+  <img src="Farm.jpg" width="400" alt="NDVI Heatmap"/>
   <br/>
  
 </div>
