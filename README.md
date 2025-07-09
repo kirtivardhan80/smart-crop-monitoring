@@ -19,7 +19,7 @@ This repository contains the implementation of **Regenerative AI for Sustainable
 ## 🖥️ Demo
 
 <div align="center">
-  <img src="images/disease_detection_ui.png" width="400" alt="Disease Detection UI"/>
+  <img src="images/disease_detection_ui.png" width="400" alt="disease_prediction.png.png"/>
   <br/>
   <i>Disease detection panel in the Streamlit app.</i>
 </div>
@@ -194,6 +194,20 @@ If you use this work in your research, please cite:
 
 Kirti Vardhan Singh  
 📫 Email: kirtivardhan7549@gmail.com
+
+
+─────────────────────────────
+
+### 🔔 **Important Tips**
+✅ Push **only minimal sample data** (e.g. 2-3 images per class) due to GitHub file size limits.  
+✅ Add `.gitignore` for large datasets if you retain local folders.  
+✅ Use meaningful commit messages (e.g. “Add CNN training notebook”, “Integrate NDVI module”).  
+✅ Write a pinned issue or Discussion for future improvements if this is part of your portfolio.
+
+─────────────────────────────
+
+Let me know if you want me to **draft your README.md fully**, generate the requirements.txt content from your environment, or write sample commit messages to initiate your repo systematically today.
+
 
 <div align="center">
   Built with ❤️ for sustainable agriculture.
