@@ -23,7 +23,7 @@ This repository contains the implementation of **Regenerative AI for Sustainable
 ## 🖥️ Demo
 
 <div align="center">
-  <img src="images/disease_detection_ui.png" width="400" alt="disease_prediction.png.png"/>
+  <img src="Output_images/disease_Prediction.png" width="400" alt="disease_prediction.png.png"/>
   <br/>
   <i>Disease detection panel in the Streamlit app.</i>
 </div>
