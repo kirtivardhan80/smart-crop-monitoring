@@ -37,7 +37,7 @@ This repository contains the implementation of **Regenerative AI for Sustainable
 ---
 
 ## 📂 Project Structure
-
+```
 smart-crop-monitoring/
 ├── README.md
 ├── LICENSE
@@ -55,7 +55,7 @@ smart-crop-monitoring/
 ├── architecture_diagram.png
 ├── ndvi_example.png
 └── disease_detection_ui.png
-
+```
 
 - **app.py**: Streamlit application main script.  
 - **ndvi_tif.py**: NDVI computation logic for GeoTIFF bands.  
